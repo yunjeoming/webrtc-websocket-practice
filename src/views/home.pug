@@ -8,5 +8,12 @@ html(lang="en")
   body 
     header
       h1 It works!
-    button Call
+    main
+      form#nick
+        input(type="text", placeholder="Write a nick", required)
+        button Send
+      ul
+      form#message
+        input(type="text", placeholder="Write a message", required)
+        button Send
     script(src="/public/js/app.js") 
